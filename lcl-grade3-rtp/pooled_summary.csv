@@ -1,0 +1,9 @@
+group,studies,rows,n_total,pooled_rtp_pct,n_rtp,pooled_same_level_pct,n_same,time_weeks_range,small_sample_flag
+Isolated | non-operative,2,2,32,100.0,32,100.0,32,2-2,
+Isolated | repair,1,1,4,100.0,4,100.0,4,14.5-14.5,yes
+"Combined | surgical, ACL-based",2,3,54,87.0,54,65.1,43,56.1-65.2,
+"Combined | surgical, PCL-based",2,2,31,90.7,31,90.0,10,64.7-64.7,
+"Combined | surgical, bicruciate",1,2,8,100.0,8,62.5,8,79.1-95.6,yes
+Combined | treatment not reported (NFL),1,1,27,55.6,27,18.5,27,65.6-65.6,
+Combined | repair (same level only),1,1,18,,0,83.3,18,,
+Combined | reconstruction (same level only),1,1,24,,0,83.3,24,,

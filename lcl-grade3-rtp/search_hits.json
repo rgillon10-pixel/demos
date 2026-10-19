@@ -1,0 +1,164 @@
+[
+ {
+  "db": "PubMed",
+  "label": "core",
+  "query": "(\"lateral collateral ligament\"[tiab] OR \"fibular collateral ligament\"[tiab] OR \"posterolateral corner\"[tiab]) AND (\"grade III\"[tiab] OR \"grade 3\"[tiab] OR complete[tiab] OR rupture[tiab] OR reconstruction[tiab] OR repair[tiab]) AND (\"return to sport\"[tiab] OR \"return to play\"[tiab] OR \"return to sports\"[tiab] OR \"return to activity\"[tiab]) AND humans[mh] AND english[la] NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 22
+ },
+ {
+  "db": "PubMed",
+  "label": "core-no-MeSH-humans (catches unindexed recent)",
+  "query": "(\"lateral collateral ligament\"[tiab] OR \"fibular collateral ligament\"[tiab] OR \"posterolateral corner\"[tiab]) AND (\"grade III\"[tiab] OR \"grade 3\"[tiab] OR complete[tiab] OR rupture[tiab] OR reconstruction[tiab] OR repair[tiab]) AND (\"return to sport\"[tiab] OR \"return to play\"[tiab] OR \"return to sports\"[tiab] OR \"return to activity\"[tiab]) AND english[la] NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 45
+ },
+ {
+  "db": "PubMed",
+  "label": "isolated-FCL-athletes",
+  "query": "(\"lateral collateral ligament\"[tiab] OR \"fibular collateral ligament\"[tiab]) AND (isolated[tiab]) AND (athlete*[tiab] OR football[tiab] OR soccer[tiab] OR NFL[tiab]) AND english[la] NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 16
+ },
+ {
+  "db": "PubMed",
+  "label": "repair-vs-recon",
+  "query": "(\"posterolateral corner\"[tiab] OR \"fibular collateral\"[tiab] OR \"lateral collateral ligament\"[tiab]) AND (repair[tiab]) AND (reconstruction[tiab]) AND (failure[tiab] OR \"systematic review\"[pt] OR meta-analysis[pt]) AND english[la] NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 46
+ },
+ {
+  "db": "PubMed",
+  "label": "varus-stress-radiograph",
+  "query": "(\"varus stress\"[tiab]) AND (radiograph*[tiab]) AND (\"posterolateral\"[tiab] OR \"fibular collateral\"[tiab] OR \"lateral collateral\"[tiab]) NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 64
+ },
+ {
+  "db": "PubMed",
+  "label": "multiligament-RTP",
+  "query": "(\"multiligament\"[tiab] OR \"multi-ligament\"[tiab] OR \"knee dislocation\"[tiab]) AND (\"return to play\"[tiab] OR \"return to sport\"[tiab]) AND (athlete*[tiab] OR NFL[tiab] OR football[tiab] OR soccer[tiab]) AND english[la]",
+  "hits": 30
+ },
+ {
+  "db": "PubMed",
+  "label": "PLC-rehab-weightbearing",
+  "query": "(\"posterolateral corner\"[tiab] OR \"fibular collateral\"[tiab]) AND (weightbearing[tiab] OR \"weight bearing\"[tiab] OR rehabilitation[tiab]) AND (\"systematic review\"[tiab] OR review[pt])",
+  "hits": 30
+ },
+ {
+  "db": "PubMed",
+  "label": "LCL-professional-case",
+  "query": "(\"lateral collateral ligament\"[tiab]) AND knee[tiab] AND (\"return-to-performance\"[tiab] OR \"case report\"[tiab] OR \"professional\"[tiab]) AND (repair[tiab] OR reconstruction[tiab] OR rupture[tiab]) NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 29
+ },
+ {
+  "db": "EuropePMC",
+  "label": "core",
+  "query": "(\"lateral collateral ligament\" OR \"fibular collateral ligament\" OR \"posterolateral corner\") AND (\"grade III\" OR \"grade 3\" OR complete OR rupture OR reconstruction OR repair) AND (\"return to sport\" OR \"return to play\") AND PUB_YEAR:[2000 TO 2026] AND LANG:eng NOT elbow NOT ankle",
+  "hits": 537
+ },
+ {
+  "db": "EuropePMC",
+  "label": "aspetar/pro-football",
+  "query": "(\"fibular collateral ligament\" OR \"lateral collateral ligament\") AND \"professional football\" AND knee",
+  "hits": 57
+ },
+ {
+  "db": "OpenAlex",
+  "label": "FCL-athletes",
+  "query": "isolated fibular collateral ligament injuries athletes return to play",
+  "hits": "error 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=isolated+fibular+collateral+ligament+injuries+athletes+return+to+play&per-page=100&filter=from_publication_date%3A2000-01-01"
+ },
+ {
+  "db": "OpenAlex",
+  "label": "LCL-grade3-RTP",
+  "query": "lateral collateral ligament knee grade III return to play",
+  "hits": "error 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=lateral+collateral+ligament+knee+grade+III+return+to+play&per-page=100&filter=from_publication_date%3A2000-01-01"
+ },
+ {
+  "db": "OpenAlex",
+  "label": "PLC-repair-vs-recon",
+  "query": "posterolateral corner repair versus reconstruction failure systematic review",
+  "hits": "error 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=posterolateral+corner+repair+versus+reconstruction+failure+systematic+review&per-page=100&filter=from_publication_date%3A2000-01-01"
+ },
+ {
+  "db": "OpenAlex",
+  "label": "MLKI-NFL",
+  "query": "multiligament knee injuries NFL return to play",
+  "hits": "error 429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=multiligament+knee+injuries+NFL+return+to+play&per-page=100&filter=from_publication_date%3A2000-01-01"
+ },
+ {
+  "db": "PubMed",
+  "label": "seed: Grawe JAAOS",
+  "query": "Grawe[au] AND \"lateral collateral ligament\"[ti]",
+  "hits": 1
+ },
+ {
+  "db": "PubMed",
+  "label": "seed: varus stress radiograph thresholds",
+  "query": "LaPrade[au] AND \"varus stress\"[tiab] AND radiograph*[tiab]",
+  "hits": 20
+ },
+ {
+  "db": "PubMed",
+  "label": "acute grade III PLC repair/recon",
+  "query": "(\"fibular collateral ligament\"[tiab] OR \"posterolateral\"[tiab]) AND (acute[tiab]) AND (\"grade III\"[tiab] OR \"grade-III\"[tiab]) AND (repair[tiab] OR reconstruction[tiab])",
+  "hits": 19
+ },
+ {
+  "db": "PubMed",
+  "label": "repair vs recon in MLKI",
+  "query": "(\"fibular collateral ligament\"[tiab] OR \"posterolateral corner\"[tiab]) AND repair[tiab] AND reconstruction[tiab] AND multiligament*[tiab]",
+  "hits": 51
+ },
+ {
+  "db": "PubMed",
+  "label": "FCL/LCL reconstruction outcomes",
+  "query": "(\"fibular collateral ligament reconstruction\"[tiab] OR \"lateral collateral ligament reconstruction\"[tiab]) AND knee[tiab] AND (outcome*[tiab] OR \"return\"[tiab]) NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 9
+ },
+ {
+  "db": "PubMed",
+  "label": "LCL nonoperative",
+  "query": "(\"lateral collateral ligament\"[tiab] OR \"fibular collateral ligament\"[tiab]) AND knee[tiab] AND (nonoperative[tiab] OR \"non-operative\"[tiab] OR conservative[tiab]) NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 42
+ },
+ {
+  "db": "PubMed",
+  "label": "LCL pivoting/combat sports",
+  "query": "(\"lateral collateral ligament\"[tiab] OR \"fibular collateral ligament\"[tiab]) AND knee[tiab] AND (soccer[tiab] OR football[tiab] OR rugby[tiab] OR basketball[tiab] OR \"mixed martial\"[tiab] OR combat[tiab] OR judo[tiab] OR wrestl*[tiab]) NOT elbow[tiab] NOT ankle[tiab]",
+  "hits": 24
+ },
+ {
+  "db": "PubMed",
+  "label": "PLC/FCL RTS or Tegner",
+  "query": "(\"posterolateral corner\"[tiab] OR \"fibular collateral ligament\"[tiab]) AND (\"return to sport\"[tiab] OR \"return to play\"[tiab] OR \"Tegner\"[tiab])",
+  "hits": 82
+ },
+ {
+  "db": "PubMed",
+  "label": "seed: Sikka 2015",
+  "query": "\"Isolated fibular collateral ligament injuries in athletes\"[ti]",
+  "hits": 0
+ },
+ {
+  "db": "PubMed",
+  "label": "PLC RTS criteria",
+  "query": "\"posterolateral corner\"[tiab] AND (criteria[tiab]) AND (\"return to sport\"[tiab] OR \"return to play\"[tiab] OR rehabilitation[tiab])",
+  "hits": 10
+ },
+ {
+  "db": "EuropePMC",
+  "label": "seed: Aspetar FCL pro football",
+  "query": "TITLE:\"fibular collateral ligament\" AND \"professional football\"",
+  "hits": 0
+ },
+ {
+  "db": "EuropePMC",
+  "label": "seed: ISAKOS 2021 combat-sports algorithm",
+  "query": "TITLE:\"lateral collateral ligament\" AND (TITLE:\"combat\" OR TITLE:\"martial\" OR TITLE:\"algorithm\")",
+  "hits": 0
+ },
+ {
+  "db": "EuropePMC",
+  "label": "seed: Aspetar journal",
+  "query": "ISSN:\"2224-8579\" OR JOURNAL:\"Aspetar Sports Medicine Journal\" AND \"collateral\"",
+  "hits": 0
+ }
+]
