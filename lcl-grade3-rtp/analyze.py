@@ -22,7 +22,9 @@ for c in ["n", "rtp_rate_pct", "rtp_same_level_pct", "time_to_rtp_weeks"]:
 
 # Pooling groups: explicit mapping from row id prefix -> analysis group
 GROUPS = {
-    "Isolated | non-operative": ["bushnell2010_nonop", "haslhofer2025_mri_g3"],
+    # Haslhofer's MRI-grade-3 subgroup had clinical laxity grade 0-2, so it is kept out of the grade 3 pool
+    "Isolated | non-operative": ["bushnell2010_nonop"],
+    "Isolated | non-operative, MRI grade 3 but clinical grade <=2": ["haslhofer2025_mri_g3"],
     "Isolated | repair": ["bushnell2010_repair"],
     "Combined | surgical, ACL-based": ["borque2020abs_acl_plc", "borque2020abs_acl_mcl_plc", "lutz2021_acl"],
     "Combined | surgical, PCL-based": ["borque2020abs_pcl_plc", "lutz2021_pcl"],

@@ -1,5 +1,6 @@
 group,studies,rows,n_total,pooled_rtp_pct,n_rtp,pooled_same_level_pct,n_same,time_weeks_range,small_sample_flag
-Isolated | non-operative,2,2,32,100.0,32,100.0,32,2-2,
+Isolated | non-operative,1,1,5,100.0,5,100.0,5,2-2,yes
+"Isolated | non-operative, MRI grade 3 but clinical grade <=2",1,1,27,100.0,27,100.0,27,,
 Isolated | repair,1,1,4,100.0,4,100.0,4,14.5-14.5,yes
 "Combined | surgical, ACL-based",2,3,54,87.0,54,65.1,43,56.1-65.2,
 "Combined | surgical, PCL-based",2,2,31,90.7,31,90.0,10,64.7-64.7,
